@@ -59,7 +59,7 @@ Pipeline:
 ```
 Image → Patches → Linear Embedding → Class Token
 → Positional Encoding → Transformer Encoder
-→ Classification Token → MLP Head → Output Class
+→ Classification Token →  Output Class
 ```
 
 The model closely follows **ViT-Base/16 architecture design** with adaptations for flower classification.
@@ -178,16 +178,6 @@ Key observations:
 
 ---
 
-## 🚧 Future Work
-
-* Fine-tuning on larger datasets
-* Implement DeiT (Data-efficient ViT)
-* Add pretraining stage
-* Compare with CNN baseline
-* Experiment with patch sizes
-
----
-
 ## 📌 Differences from Original Paper
 
 | Paper                   | This Implementation       |
@@ -205,18 +195,6 @@ Key observations:
 * Medical imaging 🧬
 * Satellite image analysis 🛰️
 * Object recognition 👁️
-
----
-
-## 🙏 Acknowledgements
-
-Special thanks to the authors of the original ViT paper for introducing transformer-based visual representation learning.
-
----
-
-## 📜 License
-
-MIT License
 
 ---
 
