@@ -10,6 +10,8 @@
 * **Authors:** Dosovitskiy et al.
 * **Link:** [https://arxiv.org/abs/2010.11929](https://arxiv.org/abs/2010.11929)
 
+<img width="952" height="490" alt="image" src="https://github.com/user-attachments/assets/abed34bc-99c1-42c6-a9d1-1ca5ffa6c4c2" />
+
 ```
 @article{dosovitskiy2020vit,
   title={An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
